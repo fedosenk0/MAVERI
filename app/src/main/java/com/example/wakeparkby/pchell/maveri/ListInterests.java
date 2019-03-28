@@ -5,7 +5,7 @@ import java.util.HashMap;
 
 public class ListInterests {
     public static ArrayList<String> listInterests = new ArrayList<>();
-    public static HashMap<String, String[]> getInterests(String[] args) {
+    public static HashMap<String, String[]> getInterests() {
         HashMap<String, String[]> mapInterests = new HashMap<>();
         ArrayList<String[]> current = new ArrayList<>();
         String group[] = {"Музыка", "Фильмы и ТВ Шоу", "Мода и Красота", "Спорт", "Путешествия", "Профессия", "Хобби", "Книги и Культура", "Другое"};
